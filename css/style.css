@@ -52,6 +52,6 @@ table {
   border-spacing: 0;
 }
 
-p {
-  color: blue;
+*, *::after, *::before {
+  box-sizing: border-box;
 }
